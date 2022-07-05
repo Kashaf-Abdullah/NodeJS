@@ -1,0 +1,2 @@
+basic knowlegde of deployment
+got to digitalocean ------->cloud.digitalocean.com

@@ -1,0 +1,76 @@
+An free and open source server environment
+Javascript can be used on the server
+An single language for both frontened and backened
+
+
+client :frontened
+server:backened
+
+use of node js in backened 
+we can use php,django,Flask ,Rails as backened languages
+
+
+we learn js for frontened but we can use javascript for backened
+
+
+is slightly  differenece Javascript run in server and node is
+local storage api not present in node js
+document object not present in nodejs
+
+
+How to run 
+just write node file name 
+eg 
+node index
+
+
+//signgle thread can manage multiple connection
+it is done by io model 
+non blocking IO Model -> when js run on the server so single thread manage multiple connection ..kbhi bhi aik  client ki request ati hai server ke pas 
+tu wo process ke time pr thread ko block nai kregi ,callback ka wait hoga(so multiple connection can handle)
+Apacke can handle multiple thread 
+
+node instllation check: node --version
+WHAT IS NPM
+
+Node package manager(in python it is like pip)
+npm fascilitate you to installations of packages
+npm init(when you fill all the detail so package.json will make)
+
+express ,angular are packages of nodejs
+
+
+
+express js installation
+pm install express --no-save
+
+in node module folder ,we have all dependency
+
+node mudule is made by npm(when we write npm i so node module folder will add)
+we donot push node module folder in github 
+
+
+
+npm i -g nodemon
+nodemon index.js
+
+npm install --save-dev nodemon(See in package.json folder that devdependencies are add)
+.................................
+HOW TO UNINSTALL PACKAGE BY NPM
+npm uninstall nodemon((See in package.json folder that devdependencies are remove)
+
+
+]
+..............
+package lock .json
+in this all depenedencies tree is present
+
+
+
+................
+//WHAT IS MODULE WRAPPER FUNCTION
+
+................
+TWO MODULES 
+1.CommonJS Module
+2.ES6(.mjs extension)

@@ -1,0 +1,14 @@
+install Express
+npm install express --save
+wherever express install so it will automatically come in the package.json
+
+
+npm uninstall @angular/cli
+remove in package.json
+
+
+one file of expressapp.js
+
+documentation of express: https://expressjs.com/
+go to getting started and then copy code
+
